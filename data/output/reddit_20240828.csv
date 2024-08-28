@@ -1,0 +1,309 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1f2mfhg,Got rejected for giving my honest opinion of Alteryx,"I told the hiring manager that it’s 💩. With all due respect, they shouldn’t invest money into Alteryx server. Next day got a rejection email. I should have been a yes man. ",143,89,giantdickinmyface,2024-08-27 17:10:14,https://www.reddit.com/r/dataengineering/comments/1f2mfhg/got_rejected_for_giving_my_honest_opinion_of/,0,False,False,False,False
+1f2qfbz,Why aren’t companies more lean?,"I’ve repeatedly seen this esp with the F500 companies. They blatantly hire in numbers when it was not necessary at all. A project that could be completed by 3-4 people in 2 months, gets chartered across teams of 25 people for a 9 month timeline.
+
+Why do companies do this? How does this help with their bottom line. Are hiring managers responsible for this unusual headcount? Why not pay 3-4 ppl an above market salary than paying 25 ppl a regular market salary. 
+
+What are your thoughts?",105,61,MotherCharacter8778,2024-08-27 19:50:57,https://www.reddit.com/r/dataengineering/comments/1f2qfbz/why_arent_companies_more_lean/,0,False,False,False,False
+1f2wr86,PSA: Employment Scams Are Everywhere!!,"Recently my company has had a huge spate of people reaching out about a position they just accepted with our company. It sucks hearing from folks who are excited to start their new job, and having to tell them that the job doesn't exist and we didn't hire them. It obviously sucks even more for them. We've had this happen before. Some folks have told us they've lost thousands of dollars to the scam. Unfortunately there's very little we can do aside from report it to i3c / FBI / FTC. We've also tracked down the host of some of the domains that are being used to contact victims and asked them to close these abusive accounts, but the scammers will just open up a new account.
+
+Here's some things to watch out for:
+
+- the recruiter emails you about the position directly, unsolicited. This isn't to say there are no recruiters that cold call, but if contacted directly you should really pay attention to other possible signs of a scam. This is particularly true if you're getting recruited for a junior role - with the competition right now it's extremely unlikely any hiring managers are reaching out directly to junior candidates. But scammers target junior candidates specifically because they're less knowledgeable, generally younger, and easier to scam.
+- intervi3ws (stupid reddit filter won't let me spell it out, that word is a no-no here I guess) that are only done via email, or with very limited video / phone calls where you never see the hiring manager's face. 
+- the job isn't listed on the company's career page
+- the hiring manager wants to send you a check for purchasing equipment (never cash these checks!) before your start date (definitely a scam)
+- the address on docs they send you doesn't match the address of the company listed on the company's website
+- the hiring process is entirely too easy, with little to no in-person questioning or discussion of technical concepts and tools or evaluation of coding abilities
+- they ask you to pay any money as part of the hiring process (definitely a scam)
+- anything involving transferring cryptocurrency (definitely a scam)
+- generally anything involving money
+- the hiring process is 100% done via a recruiter with no involvement from the person you would be working for
+
+If in doubt, contact someone at the company and ask if it's a legitimate intervi3w. You can find a contact email for someone at practically any company via LinkedIn. None of these bullets in isolation is a 100% sure sign that they're scamming you (except if they send you a check or they ask you to send them money), but if you see any of them in the hiring process you should be very wary. If you do encounter a scam, 
+
+Stay safe out there!
+
+Regarding the checks that they'll sometimes send, there are a few possible scams but one is that they'll send you a check for say $3000 to buy equipment that costs $2500. Then they'll have you send them back the difference. But the check was actually fake, so when the bank figures it out in a day or two they will reverse the deposit and you will be out for the difference.
+
+Edit: Since this seemed to have gained some traction, if you do find yourself to be a victim of an employment scam or other internet-related fraud, please report it to the [FBI via IC3](https://www.ic3.gov/Home/ComplaintChoice). While it's still a long shot that the scammers will actually get caught, every report helps the FBI build a case over time and may result in a break that allows them to catch the bad people.
+",64,4,britishbanana,2024-08-28 00:25:04,https://www.reddit.com/r/dataengineering/comments/1f2wr86/psa_employment_scams_are_everywhere/,0,False,False,False,False
+1f2rzwx,Query Snowflake tables with DuckDB using Apache Iceberg,,25,3,Buremba,2024-08-27 20:56:18,https://github.com/buremba/universql,1,False,False,False,False
+1f2rmg2,Optimize Your dbt CI/CD Pipeline with the --empty Flag in dbt 1.8,"We recently optimized our dbt CI/CD processes by leveraging the `--empty` flag introduced in dbt 1.8. This feature can significantly streamline your workflows, save resources, and make your CI/CD pipeline more efficient.
+
+# How the --empty Flag Enhances Slim CI
+
+When used with Slim CI, the `--empty` flag optimizes your CI/CD pipeline by enabling governance checks without requiring a full dataset build. Here’s how it improves your Slim CI process:
+
+* **Faster Validation:** The `--empty` flag creates empty tables and views that mirror your models, allowing you to run governance checks quickly. This ensures your models are properly defined and free from issues like linting errors or missing descriptions before committing to a full build.
+* **Cost Efficiency:** By skipping the full data processing step, the `--empty` flag conserves computational resources, leading to significant cost savings—especially when dealing with large datasets on platforms like Snowflake.
+* **Early Error Detection:** Catching errors early in the CI process reduces the risk of failures later in the pipeline. This makes your overall CI/CD process more robust, ensuring only validated code advances to the full build stage.
+
+# Implementation Steps
+
+1. **Update to dbt 1.8:** Make sure you’re using the latest version of dbt to take advantage of the `--empty` flag.
+2. **Modify Your CI/CD Pipeline:** Integrate the `--empty` flag into your dbt run/build commands to optimize your pipeline.
+3. **Proceed with Full Runs:** After successful validation, proceed with full runs or builds, ensuring that only error-free code is processed.
+
+# Have You Tried the --empty Flag?
+
+You can see our  [CI/CD GitHub Action workflow](https://datacoves.com/post/dbt-slim-ci) that utilizes dbt Slim CI in the article and video.",24,2,Data-Queen-Mayra,2024-08-27 20:40:38,https://www.reddit.com/r/dataengineering/comments/1f2rmg2/optimize_your_dbt_cicd_pipeline_with_the_empty/,0,False,False,False,False
+1f2xhr3,We’re the Great Expectations team. We just launched GX Core 1.0 and we’re here to answer all your data quality questions. Ask us anything!,"We want to take this opportunity to answer any **data quality questions** you may have. These could be about [Great Expectations](https://greatexpectations.io/?utm_campaign=m-core-launch&utm_source=reddit%20AMA&utm_medium=post&utm_content=homepage) specifically (e.g. the recent [GX Core 1.0 release](https://greatexpectations.io/blog/introducing-gx-core-1-0?utm_campaign=m-core-launch&utm_source=reddit%20AMA&utm_medium=post&utm_content=introducing%20core%20blog), [GX Cloud](https://greatexpectations.io/gx-cloud?utm_campaign=m-core-launch&utm_source=reddit%20AMA&utm_medium=post&utm_content=cloud%20page), etc.), or about data quality at large!
+
+Some folks who will be ready to answer your questions LIVE are:
+
+* **Abe Gong, CEO and co-founder of GX**: Prior to working on Great Expectations, Abe was Chief Data Officer at Aspire Health, the founding member of the Jawbone data science team, and lead data scientist at Massive Health. Abe has been leading teams using data and technology to solve problems in health, tech, and public policy for over a decade. He speaks and writes frequently on data, AI and entrepreneurship.
+* **James Campbell, CTO and co-founder at Great Expectations**: Prior to his time at Great Expectations, James spent nearly 15 years working across a variety of quantitative and qualitative analytic roles in the US intelligence community. He studied Math and Philosophy at Yale, and international security at Georgetown. He is passionate about creating tools that help communicate uncertainty and build intuition about complex systems.
+* Members of the GX engineering and developer relations teams
+
+Join us on **Wednesday September 4th**, 9-11am PT / 12-2pm ET / 4-6pm UTC, during which we will be answering your questions live. Feel free to submit a question ahead of time if you won’t be able to make it live.",21,3,molliepettit,2024-08-28 01:00:46,https://www.reddit.com/r/dataengineering/comments/1f2xhr3/were_the_great_expectations_team_we_just_launched/,0,False,False,False,False
+1f33bqk,Data contracts between software engineers and data teams,"Does anyone have any advice on how to solve the problem in which software engineers produce data that is consumed by the data teams, and then they suddenly change or break it while the data teams are not prepared for the change? Thanks.
+
+Would also be curious to learn if this happens to your team and how often.",14,13,elongl,2024-08-28 06:28:38,https://www.reddit.com/r/dataengineering/comments/1f33bqk/data_contracts_between_software_engineers_and/,0,False,False,False,False
+1f344o5,Trying to pivot from IT Support to Data Engineering. Am I stupid?,"I’m 25, based in the US. Started in IT when I was 18 as an IT Specialist in the Army National Guard. I configured routers, switches, servers, etc.. mostly netops stuff and provisioning. Aside from deployment, I did that part time while also pursuing a bachelors degree in information systems full-time at an in-person university. I also worked part-time at Geek Squad to make ends meet. No time for internships unfortunately.
+
+Last December, I graduated with my degree. Before graduating, I was looking into jobs in network administration as it felt like it made sense with my prior experience and certifications. However, learning SQL and OOP made me somewhat interested in data and software instead of networking.
+
+By the time I graduated, I had also started a master of science in business analytics at the same university. I’m finished with 2/5 semesters now and really enjoying the content.
+
+I’ve been working full time since February in a hybrid-remote IT support specialist position for a study abroad organization affiliated with my current university. They are aware that I’m in an MSBA program, and the IT director mentioned they may have data-related positions available once they finish transitioning from their current on-premises setup to Salesforce; this was supposed to be done now, but it’s been pushed to early next year.
+
+Should I be taking other certs in Azure or learning other skills? Long term I want to be a data engineer, but idk if I’m doing this right. I’m confident I want to finish the MSBA because the GI bill is paying for it, and I only have about a year left.
+
+At the same time I’m feeling stressed like I’ll be stuck in IT support begging for projects. Not sure if I should be searching elsewhere for work, or if I should stick it out here until they either offer me something or I graduate in a year.
+
+TLDR: I’m 25 with a B.Sc in Information Systems, 7 years of experience in IT Support/NetOps, and graduating in a year with an M.Sc in Business Analytics. I’m afraid of being trapped in IT support when I want to work with data, and I may get to do that where I work now. But is it worth waiting until Spring for that opportunity when I graduate next August? Aside from my full time job and grad school, what else can I realistically do with my time?",14,12,-TimeWolf-,2024-08-28 07:25:05,https://www.reddit.com/r/dataengineering/comments/1f344o5/trying_to_pivot_from_it_support_to_data/,0,False,False,False,False
+1f2sj74,investing in DE skills,"hello, I am interested in investing cca. 100 eur per month in my DE skills, what are some smart ways of doing it? thanks 🤗",13,9,West_Bank3045,2024-08-27 21:18:42,https://www.reddit.com/r/dataengineering/comments/1f2sj74/investing_in_de_skills/,0,False,False,False,False
+1f3d785,Am I... a Data engineer?,"Hi!
+
+It's been almost 2 years since I joined my company. I was initially hired as an industrial automation engineer but my role since day one has been data acquisition and SCADA systems. my main job is to coordinate and set data pipelines from industrial devices all the way to data lake. I used and learn some of the tools used by data engineers to maintain and manage this data. The company has plans on increasing their data intake. But I think I am getting rip off by not having the proper tittle and I want to bring it up to my manager . All this to say, am i a data engineer?",11,9,Litos_On_Reddit,2024-08-28 15:31:57,https://www.reddit.com/r/dataengineering/comments/1f3d785/am_i_a_data_engineer/,0,False,False,False,False
+1f37dyp,Real-time CDC Opensource tool,"Hi everyone, I am looking into realtime or near realtime opensource tool for CDC via redo logs.
+
+Data - 6-7 TB of daily movement (incremental fashion)
+
+Source - Oracle OCI / Oracle Onprem / Azure Cloud
+
+Target - Azure Data Lake Storage
+
+I have tried Debezium but thier oracle connector is missing out records and the community is working on the fix but it will take time. What are other available options I can go for with active community and also fulfill the above requirements.",9,5,Available_Town6548,2024-08-28 11:07:18,https://www.reddit.com/r/dataengineering/comments/1f37dyp/realtime_cdc_opensource_tool/,0,False,False,False,False
+1f2qbmb,Who are some folks working on cool stuff?,"I am organizing the data engineering for AI/ML virtual conference and looking for great speakers willing to talk about stuff they have worked on. 
+
+Ideally practitioners not vendors. 
+
+The audience will be highly technical. +1 for recommendations of folks from underrepresented groups. 
+
+(I already have the usual suspects like Joe reis, Hannes from duckdb, vinod from hudi Chad Sanderson, Seatle Data Guy and Sadie st laurence.)",7,6,dpbrinkm,2024-08-27 19:46:44,https://www.reddit.com/r/dataengineering/comments/1f2qbmb/who_are_some_folks_working_on_cool_stuff/,0,False,False,False,False
+1f3553b,Anyone know of an extensive online DE course that uses GCP?,Thank you ,6,5,GlueSniffingEnabler,2024-08-28 08:38:51,https://www.reddit.com/r/dataengineering/comments/1f3553b/anyone_know_of_an_extensive_online_de_course_that/,1,False,False,False,False
+1f308p6,Data Engineering - AWS 200 GB weekly data - Access & ML training,"How can you architect an AWS solution to handle 200 GB of weekly data ingestion into RedShift using AWS Glue or AWS EMR, which will be used for ML training? Additionally, how would you store the resulting ML model files (in .pkl format) in S3 and publish the ML training metrics and data quality insights on a grafana dashboard?
+
+Should we AWS Glue or AWS EMR for accessing and storing the data in RedShift and what can be alternatives for orchestration- Step Functions or Airflow?",8,0,Cautious-Tie5357,2024-08-28 03:19:58,https://www.reddit.com/r/dataengineering/comments/1f308p6/data_engineering_aws_200_gb_weekly_data_access_ml/,1,False,False,False,False
+1f35opt,How to get DE experience in a heavily regulated firms (e.g. financial services),"Hi everyone,
+
+I'm working as a Business/Data Analyst in a small insurance company. I mainly use SQL, Power BI & Excel (including VBA) in my daily work, and know a little Python. I'd want to get some experience in DE, but as you may know, financial services companies are heavily regulated, so it's very hard to install anything. In my company, even installing a simple Python package requires approval from IT security. Did anyone go through the same situation to become a DE, and what's your story/advice?",5,3,GengarRaccoon,2024-08-28 09:18:10,https://www.reddit.com/r/dataengineering/comments/1f35opt/how_to_get_de_experience_in_a_heavily_regulated/,0,False,False,False,False
+1f353ao,Portfolio Projects ,"Hi Engineers, 
+
+Which Portfolio data engineering project you would work if you got time in busy corporate life.",4,4,meet5805,2024-08-28 08:34:55,https://www.reddit.com/r/dataengineering/comments/1f353ao/portfolio_projects/,0,False,False,False,False
+1f2yj38,Yarn GPU vs Spark Rapids,"For my whole life i just use CPU for my Spark. Now i have 1060 6Gb laying around, the question are, What exactly the differences between Yarn GPU and SparkRapids, and how do i know if my GPU is even support it",7,0,Altruistic_Heat_9531,2024-08-28 01:51:39,https://www.reddit.com/r/dataengineering/comments/1f2yj38/yarn_gpu_vs_spark_rapids/,1,False,False,False,False
+1f2ok9a,How to Optimize and Automate Collibra Implementation?,"Hey everyone,
+
+I’ve been working with Collibra recently and we noticed that the initial setup and ongoing maintenance can be ""a bit"" overwhelming. It seems like it takes a significant amount of time to fill it with the necessary data definitions, and keeping everything up to date feels like an endless task.
+
+I’m curious if anyone here has faced similar challenges with Collibra and if you’ve found any ways to streamline the process? Specifically:
+
+* Are there any best practices for speeding up the initial setup?
+* What tools, if any, do you use to automate definitions entry or updates within Collibra?
+* Have you found any ways to integrate Collibra with other systems that make the process more efficient?
+
+I’d love to hear about your experiences and any tips you might have for making Collibra more manageable over time. Thanks!",5,1,hartraft84,2024-08-27 18:35:51,https://www.reddit.com/r/dataengineering/comments/1f2ok9a/how_to_optimize_and_automate_collibra/,1,False,False,False,False
+1f3btur,overturemaps data schema in duckdb question,"Hello All,
+
+I am working on mapping project (spatial data) ,where I downloaded places data from overture maps CLI as geojson file. I am loading the geojson file into duckdb (using SPATIAL extension) using ST\_READ.
+
+CREATE TABLE places AS SELECT \* FROM ST\_Read('C:\\data\\places.geojson');
+
+The challenge is all columns in places table are VARCHAR . 
+
+My end goal is to create an  API to query this data for spatial searches, in order to do this efficiently. It would be great to have schema defined with actual data types. Examples some columns like sources, names, categories are STRUCT. 
+
+Question: What is best way to create a schema as per definition in DUCKDB and load the data efficiently.
+
+I tried using python custom mapping and also other methods ; nothing helped. 
+
+||
+||
+|sources|STRUCT|The array of source information for the properties of a given feature, with each entry being a source object which lists the property in JSON Pointer notation and the dataset that specific value came from. All features must have a root level source which is the default source if a specific property's source is not specified.|
+|names|STRUCT|Properties defining the names of a feature.|
+|categories|STRUCT| [https://github.com/OvertureMaps/schema/blob/main/task-force-docs/places/overture\_categories.csv](https://github.com/OvertureMaps/schema/blob/main/task-force-docs/places/overture_categories.csv)The categories of the place. Complete list is available on GitHub: |
+
+  
+",3,0,ParticularPlant8978,2024-08-28 14:36:28,https://www.reddit.com/r/dataengineering/comments/1f3btur/overturemaps_data_schema_in_duckdb_question/,0,False,False,False,False
+1f2oglp,Making SAM 2 run 2x faster,"I was pretty amazed with SAM 2 when it came out given all the work I do with video. My company works a ton with it and we decided to take a crack at optimizing it, and **we made it run 2x faster than the original pipeline!**
+
+Unlike LLMs, video models are notorious for incredibly inefficient file reading, storage, and writing which makes them much slower than they need to be.
+
+We wrote a bit about our work here and thought we'd share with the community:
+
+[https://www.sievedata.com/blog/meta-segment-anything-2-sam2-introduction](https://www.sievedata.com/blog/meta-segment-anything-2-sam2-introduction)",5,0,happybirthday290,2024-08-27 18:31:59,https://www.reddit.com/r/dataengineering/comments/1f2oglp/making_sam_2_run_2x_faster/,0,False,False,False,False
+1f32vyj,Database to choose specific to usecase,"Hello,
+
+We have an application which runs of on premise and is on Oracle Exadata and supporting a hybrid workload (OLTP+PLAP) and the plan is to move to cloud as the existing hosted and new applications are moving to cloud. We will be getting \~500mllion transactions per day in future target state. With a peak of 10K write TPS and 7K read TPS. We were thinking of using ""postgres aurora"" for OLTP workload which will persists the incoming transaction data for 2 months and will be used and for online real-time search reports etc. and then move those data to snowflake where it will be persisted for \~2years+ which will serve the OLAP or analytics type use case.
+
+But we few teammates also suggesting why not use just a single database (say snowflake), but we also got to know that snowflake currently doesn't have indexes , constraints and also may not perform good with complex join etc., so it may not be good for our initial OLTP use case. I understand snowflake is coming up with Hybrid table which is yet to show its full potential.
+
+Having no idea about data bricks , So want to understand from the experts here if we can use data bricks in this case to serve our hybrid workload without having need of multiple databases(one for OLTP and another for OLAP)? what would be the potential pros and cons if we go for data bricks as one single database to serve the hybrid workload? or if its mostly batch/oltp usecase but a little oltp usecase then is it worth to go for?",3,1,Big_Length9755,2024-08-28 05:59:28,https://www.reddit.com/r/dataengineering/comments/1f32vyj/database_to_choose_specific_to_usecase/,0,False,False,False,False
+1f31ue2,Very basic searchable record storage,"Hi,
+
+I apologise if this is the wrong place to ask, please direct me elsewhere if there is somewhere more suited.
+
+I want to digitise some records at my work. They are currently paper forms that are scanned as .pdfs and put away in a folder to be forgotten forever. 
+
+I'd like to have somewhere to input the details digitally, so they can be easily searched, and can be changed/added to if required. I'd also like them to be easily analysed - a stretch goal would be to have some basic automatic reports generated.
+
+Ideally, without requiring an additional program to be installed on the work computers, because I'm not sure IT will permit that for my silly little project. We do have a microsoft sharepoint that I think I would be reasonably allowed to make an app for.
+
+I believe an excel sheet will be too unwieldy for the receptionists (who will be inputting and searching the data mostly) given the number of records.
+
+The data would be: case number, date and time, species, outcome, and would need a free space to write an address and a few lines of vet assessment.
+
+Is there a free tool or even a cheap tool or an easy ish way to make a records database like this? I'd love to make custom drop down menus for all the fields of input apart from address and comments, which would be unique.
+
+My IT skills are very basic but I'm willing to learn - just need things to be beginner level. Any advice would be much appreciated!",3,4,tortoisetortellini,2024-08-28 04:51:36,https://www.reddit.com/r/dataengineering/comments/1f31ue2/very_basic_searchable_record_storage/,0,False,False,False,False
+1f30fh4,Easiest way to create an interface with queried fields and data entry fields?,"I'm somewhat of a noob here but I do have experience as a DBA, and I need a sanity check. Is there any way to do the following short of writing a web app in something like Javascript? 
+
+I need to create an interface to facilitate assessments where on each question you see the assessment guidance (with dynamic placeholder values), the previous assessment result, and you can enter or edit the new assessment result. Plus in general I keep running into similar situations where I need to use a custom schema and provide some kind of interface that does the same thing; providing dynamically queried data for each item (querying multiple tables on the backend) and allowing the user to create a new record in a separate table or edit an existing record.
+
+* I've used Excel a lot with VLOOKUPs for the queried data, but it ends up requiring me to manage a relational database and export a worksheet, populate the worksheet and load it back in. I'd really like to have the interface pull the reference data when you load it, just to avoid all the random worksheets floating around.
+* I've tried using an Access database and I know Access has a form creator but frankly if it's between creating an app in Access or writing a Javascript app to interact with a backend DB I'd rather write a Javascript app and learn a transferable skill.
+* PowerApps seems like it will nickel-dime you at every turn. Oh you want THAT feature? Well that's a license add-on.
+* I'd also love if the solution was open source and could run on a workstation. I know something like Service Now would do what I need but ServiceNow is hella expensive.
+
+Is there an obvious solution from the Data Engineering world? Or should I just buckle down and write some Javascript? ",3,0,grantovius,2024-08-28 03:30:22,https://www.reddit.com/r/dataengineering/comments/1f30fh4/easiest_way_to_create_an_interface_with_queried/,0,False,False,False,False
+1f2thzm,Help!  Hybrid Fivetran Woes -  Multiple On-Prem SQL Servers to Databricks,"Has anyone successfully deployed Fivetran in a hybrid setup with multiple on-premises SQL Servers, landing data into Databricks? Any insights or lessons learned would be greatly appreciated!",3,2,Ok-Knowledge9089,2024-08-27 21:59:29,https://www.reddit.com/r/dataengineering/comments/1f2thzm/help_hybrid_fivetran_woes_multiple_onprem_sql/,0,False,False,False,False
+1f3f6gj,Running serverless streaming pipelines on Fly.io,,3,0,mwylde_,2024-08-28 16:52:01,https://www.arroyo.dev/blog/arroyo-on-fly,1,False,False,False,False
+1f3ax3o,Best practice to build enterprise integrations?,"Dear redditors, would you advise on the below?
+
+We are currently embarking on a project to integrate our data platform with around 20 major systems, including heavyweights like Salesforce, SAP, and Oracle JD Edwards. We want to support read-write capabilities, add actions and triggers for real-time queries and batch processing.
+
+Keen to learn from those who've navigated such decisions before. Specifically :
+1. Best practices/tools/methodologies for integrating major systems such as Salesforce and SAP. We want to easily modify for new use cases and speed up adding new integrations.
+2. Approaches for dashboard use cases—whether it's better to use APIs, webhooks, or to batch process data beforehand.
+
+Looked up paragon so far. I feel that building it from scratch could be very effortful but cost effectiveness and control are also valuable. Would do you think?
+
+Any recommendations would be greatly appreciated. Thanks in advance!!
+",2,3,agentpandy,2024-08-28 13:59:33,https://www.reddit.com/r/dataengineering/comments/1f3ax3o/best_practice_to_build_enterprise_integrations/,0,False,False,False,False
+1f37bia,Data Engineering with AWS,"Hi everyone! I’m an absolute beginner in the field, but I am exploring and doing my best to learn more about it.
+
+In doing so, I signed up for an online certificate from Udacity with the aforementioned title; but to be completely honest, I have struggled to translate the lessons into project applications.
+
+I have browsed the support forums and did my due dilligence in looking for other learning resources to complete the tasks, but it seems I’ve bitten off more than I can chew, lacking knowledge in the fundamental concepts needed prior to taking the course.
+
+Would anyone be willing to serve as a tutor for three projects that involve extracting data from S3, transforming it into dimensional tables, loading other S3 and JSON data into Athena tables ueing Spark and Glue, as well as automating data pipelines with Airflow?
+
+This is quite a longshot, but I just don’t want to let the course go to waste when I’m trying to upskill. Any feedback or referrals to other learning resources would be greatly appreciated as well. Thank you very much!",2,2,Hot-Channel-3759,2024-08-28 11:03:19,https://www.reddit.com/r/dataengineering/comments/1f37bia/data_engineering_with_aws/,0,False,False,False,False
+1f377ea,Junior DE role in London with Politics BA and DS bootcamp,"Hey all!
+
+I am completing a 6-month part-time bootcamp in Data Science and Machine Learning (which also covers SQL). I am determined to gain additional certifications (AWS, additional DE online courses, etc.) as I want to initiate a career path in Data Engineering.
+
+The issue -  I majored in Politics and have no quantitative background.  I have worked for \~3 years in climate change/sustainability consulting, which involves some degree of numeracy/working with datasets but is still not a quantitative job if you ask me.
+
+In this day's job market in the UK (London, more specifically) - what advice would you give someone like I in terms of next steps to take?
+
+Will my background be an impediment? Will certifications and online courses be enough?
+
+Thanks in advance!",2,7,Normal-Bandicoot-180,2024-08-28 10:56:44,https://www.reddit.com/r/dataengineering/comments/1f377ea/junior_de_role_in_london_with_politics_ba_and_ds/,0,False,False,False,False
+1f361n8,Rebuilding SP from SQL server to MySQL,"Hi all,
+
+At work we are phasing out our SQL server and transitioning to Azure. We have a MySQL instance running, where I want to land a dataset that we provide for customers. The set is now prepared through a stored procedure. There is quite some business logic in the SP and lots of steps.
+
+In Azure we are using Synapse with notebooks and pipelines already. My question is, should I rebuild the SP from MSSQL to MySQL or should I opt for rebuilding it in a notebook with just plain queries? I have another ETL process working through Python notebooks already.",2,3,muximalio,2024-08-28 09:44:28,https://www.reddit.com/r/dataengineering/comments/1f361n8/rebuilding_sp_from_sql_server_to_mysql/,0,False,False,False,False
+1f2vd49,Question for DBA,Deleted,2,0,Fasthandman,2024-08-27 23:20:25,https://www.reddit.com/r/dataengineering/comments/1f2vd49/question_for_dba/,0,False,False,False,False
+1f2sk7z,Signed up for ODSC West and only now noticed it is on Halloween.,"Is it appropriate to wear a Halloween costume to a data science conference?
+
+This is my first professional conference. My job is paying for it.
+
+My plan this year was to dress up like the Quaker Oats guy but maybe I should do something different.",2,0,CoolmanWilkins,2024-08-27 21:19:58,https://www.reddit.com/r/dataengineering/comments/1f2sk7z/signed_up_for_odsc_west_and_only_now_noticed_it/,0,False,False,False,False
+1f3f5lx,Postgres to ClickHouse: Data Modeling Tips,,2,0,saipeerdb,2024-08-28 16:51:02,https://clickhouse.com/blog/postgres-to-clickhouse-data-modeling-tips,1,False,False,False,False
+1f3f0uu,Cost vs performance,"When it comes to cloud data warehouses, what's more important to you?
+
+[View Poll](https://www.reddit.com/poll/1f3f0uu)",1,2,hornyforsavings,2024-08-28 16:45:35,https://www.reddit.com/r/dataengineering/comments/1f3f0uu/cost_vs_performance/,1,False,False,False,False
+1f3eijc,I am having trouble understanding one concept of spark,"Let's say I have to read 100 GB of data across 10 cluster in spark.
+Each cluster have 16g memory and 4 cores.
+
+How can I make sure that during reading of data all the data is not read by one executor only instead it is read by all the executor simultaneously.
+Thus reducing the time to run the process.
+
+",2,4,Lolitsmekonichiwa,2024-08-28 16:24:37,https://www.reddit.com/r/dataengineering/comments/1f3eijc/i_am_having_trouble_understanding_one_concept_of/,1,False,False,False,False
+1f3eccr,Seeking Advice for a begineer ,"Hi all  
+I am a complete newbie with a non-tech background and I have dream to one day be a data engineer. The people who are currently in a data engineering position what would you do if you are in my position, Thank you",0,0,Bushido12905,2024-08-28 16:17:59,https://www.reddit.com/r/dataengineering/comments/1f3eccr/seeking_advice_for_a_begineer/,0,False,False,False,False
+1f3ds3t,On-prem solutions for IoT Time Series Data,"Hey there!
+
+  
+I'm relatively new to data engineering but I have the opportunity to help suggest ideas to my team as we are looking to revamp some of our data architecture. I know there was a very similar post recently about time series data but I wanted to get some additional input for my use case. 
+
+**Context**
+
+Due to certain requirements, we cannot use the cloud. Our data is mainly IoT timeseries data (10Hz usually) stored in our own proprietary file format. This leads our ingestion pipeline to be pretty custom as we need to apply a Python based parser (its fast enough) and apply some data transformations to extract data into a more traditional table structure. The pipeline typically processes about 16 files in parallel (with each file generating about 20 million rows that need to be written).
+
+We can expect volume in the ballpark of 8000 files per hour with each file having up to 20 million rows.
+
+  
+We can expect around 30-50TB of data per month (estimates based on parquet storage). 
+
+  
+R**ead Patterns**
+
+The data will either be accessed to generate plots (with no transformations needed) or used for some custom aggregations (will need to be grouped by around 10 columns usually). We plan to pre-compute most of the common aggregations and store it but we want to allow users the ability to do some custom aggregations on the raw data.
+
+  
+**Other Considerations**
+
+**-** Since we are on-prem, ideally we will find a solution that optimizes for storage cost.
+
+**-** We will need to be close to real time as possible when serving the data but some minimal lag may be acceptable as our pipeline is batch oriented anyway
+
+**Options I am considering**
+
+**-** Maintain a hot storage and cold storage --> Move data either weekly or monthly into HDFS stored as parquet format
+
+- Use an OLAP datastore as hot storage, I am considering: Apache Pinot, ClickHouse, QuestDB
+
+- With two sources of data, have some data lineage tool to keep track of the data location -- I am not sure if this is the best approach?
+
+- I am trying to avoid using HDFS as a hot storage because the partition patterns best for read performance will easily lead to the small file problem HDFS struggles with. 
+
+  
+With that said, I would love to hear any feedback you guys have on either tools or approaches you would suggest.
+
+  
+Thank you!
+
+
+
+
+
+
+
+",2,2,Slaught3rr,2024-08-28 15:55:30,https://www.reddit.com/r/dataengineering/comments/1f3ds3t/onprem_solutions_for_iot_time_series_data/,1,False,False,False,False
+1f3bjlr,Python Skill Level Needed For MSDS Program,"How much programming experience is required to gain admission to an MSDS program? I am starting to look for MSDS programs now, but I worry about my low Python skills. I have some MATLAB experience, but only at beginner level in Python (taking beginner class now at local college). Many Thanks.",1,15,MoneyRetard,2024-08-28 14:24:51,https://www.reddit.com/r/dataengineering/comments/1f3bjlr/python_skill_level_needed_for_msds_program/,0,False,False,False,False
+1f2xsib,Reporting framework and BI tools,"Hello,
+
+The company I work for has a  SaaS application (PHP) running in AWS.  Each client has their own EC2 instance and their own MySQL DB.   The backend  is shared over multiple RDS instances.
+
+Some of our client databases are getting close to 30GB, as there is a fair amount of historical data.
+
+The issues we are facing are:
+
+1. Speed - Some of the reports are quite heavy (filtering over large date ranges), with lots of left joins and aggregate functions.  Most of them are as optimised as they can be without breaking them down into lots of temp tables.
+2. Transaction locking - Given the reports are reporting across lots of tables, there are occasional times when deadlocks occur.  There are many entry points for DML and heavy processing in the application, so running reporting at the same time can occasionally be problematic.
+3. Custom reporting - Some clients are requesting copies of their DB so they can do their own custom reporting.  However it's also utilising our resources to support them do what they need to do (lots of schema related questions and assistance with writing SQL).
+
+The idea has been floated around with moving data (one way sync + ETL) into a warehouse (i.e. Redshift) and having most of the reporting done via client facing tools of whatever application we decided to go with.  Obviously there are various options here, each with different costs/benefits.
+
+This is a fairly large commitment, and I am looking for recommendations to deal with this situation.  I am heading down the path of doing a POC with different tools to evaluate how feasible this is, and whether we actually want to do this.  I am also contemplating generating ""pre-compiled"" reports.  This could be done overnight, so they are pre-cached and ready to be used in the morning.
+
+I should also mention we do have Snowflake readily available (used within the parent company), however anything is on the table.
+
+Thanks!",1,6,f4hq2,2024-08-28 01:15:30,https://www.reddit.com/r/dataengineering/comments/1f2xsib/reporting_framework_and_bi_tools/,0,False,False,False,False
+1f34e5x,Anyone who knows R? ,"As the title says, anyone who knows R? I’m writing an exam at the moment where I need to use it, and I find so difficult… Are there anyone in here who I could write to? I know the subreddit isn’t for helping out with homework, but I hope someone will see this anyway. 
+Have a good day ",0,4,mchlchrstn_1,2024-08-28 07:44:23,https://www.reddit.com/r/dataengineering/comments/1f34e5x/anyone_who_knows_r/,0,False,False,False,False
